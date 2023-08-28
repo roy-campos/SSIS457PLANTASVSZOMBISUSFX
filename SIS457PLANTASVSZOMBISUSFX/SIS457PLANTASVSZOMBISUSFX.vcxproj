@@ -131,11 +131,13 @@
     <ClCompile Include="zombie.cpp" />
     <ClCompile Include="zombiedancer.cpp" />
     <ClCompile Include="zombiemaroyu.cpp" />
+    <ClCompile Include="ZombieRunner.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="zombie.h" />
     <ClInclude Include="zombiedancer.h" />
     <ClInclude Include="zombiemaroyu.h" />
+    <ClInclude Include="ZombieRunner.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

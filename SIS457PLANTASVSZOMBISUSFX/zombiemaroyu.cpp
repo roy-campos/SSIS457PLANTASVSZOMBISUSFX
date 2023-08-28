@@ -26,6 +26,4 @@ void ZombieMaroyu::bailar()
 	for (int i = 0; i < 10; i++) {
 		posicionY += direccionY * velocidad;
 	}
-
-
 }

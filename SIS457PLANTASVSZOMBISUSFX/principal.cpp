@@ -1,7 +1,9 @@
-+#include <iostream>
+#include <iostream>
 #include "Zombie.h"
 #include "ZombieDancer.h"
 #include "ZombieMaroyu.h"
+#include "ZombieRunner.h"
+#include "ZombieRunner.cpp"
 
 using namespace std;
 
@@ -31,7 +33,7 @@ int main() {
 	cout << "La posicion X del zombie es: " << Juanita.getPosicionX() << endl;
 	cout << "La posicion Y del zombie es: " << Juanita.getPosicionY() << endl;
 
-	ZombieMaroyu Rosita;
+	zombiemaroyu Rosita;
 	Rosita.setNombre("Rosita");
 	cout << "El nombre del zombie es: " << Rosita.getNombre() << endl;
 	cout << "La energia del zombie es: " << Rosita.getEnergia() << endl;
@@ -41,6 +43,18 @@ int main() {
 	Rosita.bailar();
 	cout << "La posicion X del zombie es: " << Rosita.getPosicionX() << endl;
 	cout << "La posicion Y del zombie es: " << Rosita.getPosicionY() << endl;
+
+	ZombieRunner Luisito; 
+	Luisito.setNombre("Luisito");
+	cout << "El nombre del zombie es: " << Luisito.getNombre() << endl;
+	cout << "La energia del zombie es: " << Luisito.getEnergia() << endl;
+	cout << "La velocidad del zombie es: " << Luisito.getVelocidad() << endl;
+	cout << "La posicion X del zombie es: " << Luisito.getPosicionX() << endl;
+	cout << "La posicion Y del zombie es: " << Luisito.getPosicionY() << endl;
+	Luisito.correr(); 
+	cout << "La posicion X del zombie es: " << Luisito.getPosicionX() << endl;
+	cout << "La posicion Y del zombie es: " << Luisito.getPosicionY() << endl;
+
 
 	return 0;
 

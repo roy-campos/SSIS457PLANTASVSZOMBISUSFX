@@ -5,7 +5,7 @@ using namespace std;
 
 class Zombie
 {
-private:
+public:
 	int energia = 90;
 	int nivelFuria;
 

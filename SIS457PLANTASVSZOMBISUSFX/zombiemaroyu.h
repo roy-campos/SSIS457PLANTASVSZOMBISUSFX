@@ -1,6 +1,6 @@
 #pragma once
 class zombiemaroyu :
-    public zombiemaroyu
+    public ZombieDancer
 {
 #pragma once
 #include "ZombieDancer.h"
