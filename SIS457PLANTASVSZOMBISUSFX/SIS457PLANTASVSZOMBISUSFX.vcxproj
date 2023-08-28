@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="planta.cpp" />
     <ClCompile Include="principal.cpp" />
     <ClCompile Include="zombie.cpp" />
     <ClCompile Include="zombiedancer.cpp" />
@@ -134,6 +135,7 @@
     <ClCompile Include="ZombieRunner.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="planta.h" />
     <ClInclude Include="zombie.h" />
     <ClInclude Include="zombiedancer.h" />
     <ClInclude Include="zombiemaroyu.h" />

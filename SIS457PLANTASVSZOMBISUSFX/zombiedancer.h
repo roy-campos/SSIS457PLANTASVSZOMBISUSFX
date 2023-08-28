@@ -11,7 +11,7 @@ public:
 	int getNivelDestrezaBaile() { return nivelDestrezaBaile; }
 	void setNivelDestrezaBaile(int _nivelDestrezaBaile) { nivelDestrezaBaile = _nivelDestrezaBaile; }
 
-	//Metodos propios
+	
 	void bailar();
 
 

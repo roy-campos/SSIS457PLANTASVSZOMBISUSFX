@@ -5,6 +5,8 @@
 #include "ZombieRunner.h"
 #include "ZombieRunner.cpp"
 
+
+
 using namespace std;
 
 int main() {
@@ -55,7 +57,7 @@ int main() {
 	cout << "La posicion X del zombie es: " << Luisito.getPosicionX() << endl;
 	cout << "La posicion Y del zombie es: " << Luisito.getPosicionY() << endl;
 
-
+	
 	return 0;
 
 }
